@@ -1,4 +1,3 @@
-
 import random
 
 total_winnings = 0
@@ -52,11 +51,18 @@ while player_choose == "y" or player_choose == "r":
         print("you got a one off win")
         total_spent = total_spent + 1
         total_winnings = total_winnings + 275
+        print("your total winnings are $" + str(total_winnings) + " and you spent a total of $" + str(total_spent))
+        print("your net loss is")
+        print(total_winnings - total_spent)
     else:
         print("you did not win")
         total_spent = total_spent + 1
     print("your total winnings are $" + str(total_winnings) + " and you spent a total of $" + str(total_spent))
+    print("your net loss is")
+    print(total_winnings - total_spent)
     player_choose = input("choose y to input your number r to get random numbers and x to stop playing")
 print("thanks for playing")
+
+
 
 
