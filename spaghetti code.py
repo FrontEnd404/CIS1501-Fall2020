@@ -287,4 +287,4 @@ game_number = 4
 print("the average number of turns for a game with 1 decks is:", master_average_turn_list[0])
 print("the average number of turns for a game with 2 decks is:", master_average_turn_list[1])
 print("the average number of turns for a game with 3 decks is:", master_average_turn_list[2])
-#rip my grade
+
